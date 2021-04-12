@@ -34,7 +34,7 @@ basket.display();
     function keyPressed() {
         if (keyCode === UP_ARROW) {
           Matter.Body.setStatic(ball.body,false);
-          Matter.Body.applyForce(ball.body,ball.body.position,{x:-160,y:-180});
+          Matter.Body.applyForce(ball.body,ball.body.position,{x:-80,y:-105});
         }
         if(keyCode===32){
             Matter.Body.setPosition(ball.body,{x:545,y:240});
